@@ -33,6 +33,7 @@ public class CoroutineBehaviour : MonoBehaviour
         {
             repeatCountEvent.Invoke();
             counterNum.intData--;
+            Debug.Log(seconds);
             yield return wfsObj;
         }
         endCountEvent.Invoke();
