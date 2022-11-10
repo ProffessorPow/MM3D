@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R5CR30EKL4H",
         "name": "com.WhooGames.MegastoreMayhem3D",
-        "processId": 17024,
+        "processId": 30632,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -24,6 +24,30 @@
             "deviceId": "R5CR30EKL4H",
             "name": "com.WhooGames.MegastoreMayhem3D",
             "processId": 17024,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CR30EKL4H",
+            "name": "com.WhooGames.MegastoreMayhem3D",
+            "processId": 30926,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CR30EKL4H",
+            "name": "com.WhooGames.MegastoreMayhem3D",
+            "processId": 21443,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CR30EKL4H",
+            "name": "com.WhooGames.MegastoreMayhem3D",
+            "processId": 24984,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CR30EKL4H",
+            "name": "com.WhooGames.MegastoreMayhem3D",
+            "processId": 30632,
             "exited": false
         }
     ],
