@@ -6,7 +6,7 @@ public class PlayerMovementBehavior : MonoBehaviour
     
     public Transform cam;
 
-    public float speed = 6f;
+    public float speed;
     public float turnSpeed = 10;
     public float turnSmoothTime = 0.1f;
     private float turnSmoothVelocity;
@@ -31,7 +31,7 @@ public class PlayerMovementBehavior : MonoBehaviour
         
         if (Input.GetMouseButton(0))
         {
-            if (mousePos.x > 0.26)
+            if (mousePos.x > 0.99)
             {
                 //Debug.Log("Mouse down right");
                 var horizontalInput = 1;
@@ -53,7 +53,7 @@ public class PlayerMovementBehavior : MonoBehaviour
                 }
             }
 
-            else if (mousePos.x < 0.26)
+            else if (mousePos.x < 0.99)
             {
                 //Debug.Log("Mouse down left");
                 var horizontalInput = -1;
@@ -75,5 +75,10 @@ public class PlayerMovementBehavior : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void SetSpeed(float num)
+    {
+        speed = num;
     }
 }
